@@ -8,19 +8,23 @@
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2000&pause=500&color=00FF41&background=000000&center=true&vCenter=true&multiline=false&width=600&lines=%5B+SYSTEM+BOOT+%5D+Loading+VptrCipher...;%5B+AUTH+%5D+Identity+Verified+%E2%9C%93;%5B+ROLE+%5D+AI+Engineer+%7C+Full+Stack;%5B+MODE+%5D+HACKATHON+%2F+BUILDER;%5B+STATUS+%5D+Shipping+to+Production+%F0%9F%9A%80;%5B+WARNING+%5D+Dangerous+Code+Ahead+%E2%9A%A0%EF%B8%8F" />
 </p>
 
-<!-- HACKER DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center">
 
-<!-- SYSTEM TERMINAL BLOCK -->
-```
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&duration=1800&pause=700&color=00FF41&background=0D111700&center=true&vCenter=true&multiline=true&width=900&height=140&lines=%5B+TERMINAL+v2.0+%5D;Initializing+VptrCipher+System...;Loading+Modules+██████████+100%25;Access+Granted+✓"/>
+
+</p>
+
+```bash
 ╔══════════════════════════════════════════════════════════════════╗
-║                    [ TERMINAL v2.0 ]                            ║
-║  ██╗   ██╗██████╗ ████████╗██████╗  ██████╗██╗██████╗ ██╗  ██╗║
-║  ██║   ██║██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██║██╔══██╗██║  ██║║
-║  ██║   ██║██████╔╝   ██║   ██████╔╝██║     ██║██████╔╝███████║║
-║  ╚██╗ ██╔╝██╔═══╝    ██║   ██╔══██╗██║     ██║██╔═══╝ ██╔══██║║
-║   ╚████╔╝ ██║        ██║   ██║  ██║╚██████╗██║██║     ██║  ██║║
-║    ╚═══╝  ╚═╝        ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝╚═╝     ╚═╝  ╚═╝║
+║                        TERMINAL v2.0                             ║
+║                                                                  ║
+║   ██╗   ██╗██████╗ ████████╗██████╗  ██████╗██╗██████╗ ██╗  ██╗  ║
+║   ██║   ██║██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██║██╔══██╗██║  ██║  ║
+║   ██║   ██║██████╔╝   ██║   ██████╔╝██║     ██║██████╔╝███████║  ║
+║   ╚██╗ ██╔╝██╔═══╝    ██║   ██╔══██╗██║     ██║██╔═══╝ ██╔══██║  ║
+║    ╚████╔╝ ██║        ██║   ██║  ██║╚██████╗██║██║     ██║  ██║  ║
+║     ╚═══╝  ╚═╝        ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝╚═╝     ╚═╝  ╚═╝  ║
+║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
