@@ -202,9 +202,11 @@ TIME TO SHIP: [████████████████████] GO 
 
 ## `> github --stats --verbose`
 
+<!-- FIX 1: Replaced with more reliable stats card URLs using greptile-dark theme + explicit cache busting -->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VptrCipher&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=00FF41&icon_color=00FF41&text_color=00FF41&border_color=00FF41"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VptrCipher&layout=compact&langs_count=7&theme=chartreuse-dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&text_color=00FF41"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VptrCipher&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=00FF41&icon_color=00FF41&text_color=00FF41&ring_color=00FF41&cache_seconds=1800" />
+  &nbsp;
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VptrCipher&layout=compact&langs_count=7&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&text_color=00FF41&cache_seconds=1800" />
 </p>
 
 <p align="center">
@@ -219,9 +221,45 @@ TIME TO SHIP: [████████████████████] GO 
 
 ## `> watch /contribution-grid --animated`
 
+<!-- FIX 2: Snake SVG requires GitHub Actions to generate. -->
+<!-- OPTION A (Recommended): Add the workflow below and this line will work automatically -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VptrCipher/VptrCipher/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VptrCipher/VptrCipher/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VptrCipher/VptrCipher/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/VptrCipher/VptrCipher/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </p>
+
+<!-- 
+  ⚠️  SNAKE SETUP REQUIRED — Create this file in your repo:
+  .github/workflows/snake.yml
+  ────────────────────────────────────────────────────────
+  name: Generate Snake Animation
+  on:
+    schedule:
+      - cron: "0 */12 * * *"
+    workflow_dispatch:
+  jobs:
+    generate:
+      runs-on: ubuntu-latest
+      timeout-minutes: 5
+      steps:
+        - uses: Platane/snk/svg-only@v3
+          with:
+            github_user_name: VptrCipher
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        - uses: crazy-max/ghaction-github-pages@v3.1.0
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ────────────────────────────────────────────────────────
+  Then go to Actions tab → Run workflow manually once to generate the SVG.
+-->
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -290,6 +328,7 @@ All systems operational. Threat level: HIGH
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003300,100:000000&height=120&section=footer&text=%5B+CONNECTION+TERMINATED+%5D&fontSize=20&fontColor=00ff41&animation=fadeIn"/>
 </p>
 
+<!-- FIX 3: Footer typing SVG — removed black background so it renders on GitHub's dark/light mode -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=3000&pause=500&color=00FF41&background=00000000&center=true&vCenter=true&width=500&lines=//+End+of+transmission...;//+VptrCipher+logging+off;//+Stay+curious.+Stay+dangerous.+🖤" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&width=500&lines=//+End+of+transmission...;//+VptrCipher+logging+off;//+Stay+curious.+Stay+dangerous.+%F0%9F%96%A4" />
 </p>
