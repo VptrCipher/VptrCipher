@@ -202,11 +202,11 @@ TIME TO SHIP: [████████████████████] GO 
 
 ## `> github --stats --verbose`
 
-<!-- FIX 1: Replaced with more reliable stats card URLs using greptile-dark theme + explicit cache busting -->
+<!-- Using salesp07's fork — higher rate limits, more reliable for low-activity accounts -->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VptrCipher&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=00FF41&icon_color=00FF41&text_color=00FF41&ring_color=00FF41&cache_seconds=1800" />
+  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api?username=VptrCipher&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D0D&title_color=00FF41&icon_color=00FF41&text_color=00FF41&cache_seconds=3600" />
   &nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VptrCipher&layout=compact&langs_count=7&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&text_color=00FF41&cache_seconds=1800" />
+  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=VptrCipher&layout=compact&langs_count=7&theme=dark&hide_border=true&bg_color=0D0D0D&title_color=00FF41&text_color=00FF41&cache_seconds=3600" />
 </p>
 
 <p align="center">
