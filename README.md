@@ -188,7 +188,7 @@ echo "[+] Proceeding to obliterate the problem..."
   [!] WARNING: Productivity levels may spike.
 ```
 
-> 🔗 [`github.com/VptrCipher/deadline-radar`](https://github.com/VptrCipher/deadline-radar)
+> 🔗 [`github.com/VptrCipher/deadline-radar`](https://github.com/VptrCipher/deadline-radr)
 
 ---
 
