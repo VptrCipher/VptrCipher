@@ -173,6 +173,25 @@ echo "[+] Proceeding to obliterate the problem..."
 
 ---
 
+### 🟢 `[ PROJECT_03 ]` — Deadline Radar
+
+```bash
+┌──[VptrCipher@blackbox]─[~/projects/deadline-radar]
+└─$ ./launch --mode=productivity
+
+  [*] Deadline Radar — Smart Assignment Tracker
+  [+] 3D productivity dashboard............... ONLINE
+  [+] Dynamic deadline countdown engine....... RUNNING
+  [+] Intelligent urgency detection........... ACTIVE
+  [+] Physics-based UI interaction............ LOADED
+  [+] Canvas particle background.............. RENDERING
+  [!] WARNING: Productivity levels may spike.
+```
+
+> 🔗 https://github.com/VptrCipher/deadline-radar
+
+---
+
 ## `> cat /hackathon/mode.conf`
 
 <p align="center">
