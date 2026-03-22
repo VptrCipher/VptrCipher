@@ -1,4 +1,3 @@
-<!-- MATRIX RAIN EFFECT via SVG -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003300,100:000000&height=200&section=header&text=VptrCipher&fontSize=60&fontColor=00ff41&animation=fadeIn&fontAlignY=65&desc=//%20ACCESS%20GRANTED&descAlignY=85&descAlign=50&descSize=18&descColor=00ff41" width="100%"/>
 </p>
@@ -189,6 +188,24 @@ echo "[+] Proceeding to obliterate the problem..."
 ```
 
 > 🔗 [`github.com/VptrCipher/deadline-radar`](https://github.com/VptrCipher/deadline-radr)
+
+---
+
+### 🟣 `[ PROJECT_04 ]` — RAG Production System
+
+```bash
+┌──[VptrCipher@blackbox]─[~/projects/rag-production-system]
+└─$ ./launch --mode=production
+
+  [*] RAG Production System — Modular AI Retrieval Engine
+  [+] Hybrid Vector/BM25 Search................ ONLINE
+  [+] LLM Grounding & Re-ranking............... ACTIVE  
+  [+] Ragas Evaluation Suite................... PASSED
+  [+] FastAPI Streaming API.................... LIVE
+  [!] WARNING: Highly knowledgeable. Grounded in facts.
+```
+
+> 🔗 [`github.com/VptrCipher/rag-production-system`](https://github.com/VptrCipher/rag-production-system)
 
 ---
 
