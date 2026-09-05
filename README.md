@@ -152,7 +152,7 @@ echo "[+] Proceeding to obliterate the problem..."
 
 ---
 
-### 🔵 `[ PROJECT_02 ]` — Developer Portfolio
+### 🔵 `[ PROJECT_02 ]` — AGUSTA
 
 ```bash
 ┌──[VptrCipher@blackbox]─[~/projects/portfolio]
@@ -166,7 +166,7 @@ echo "[+] Proceeding to obliterate the problem..."
   [!] Side effects: Instant recruiter interest.
 ```
 
-> 🔗 [`github.com/VptrCipher/portfolio`](https://github.com/VptrCipher/portfolio)
+> 🔗 [`github.com/VptrCipher/Agusta`](https://github.com/VptrCipher/Agusta)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
